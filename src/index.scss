@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// @import "./themes/common/theme.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  // font-family: serif;
+  font-family: "Manrope", sans-serif;
+}
+
+// *::-webkit-scrollbar {
+//   width: 6px;
+//   height: 6px;
+// }
+
+// *::-webkit-scrollbar-track {
+//   border-radius: 100px;
+//   background: rgba(0, 0, 0, 0.05);
+// }
+
+// *::-webkit-scrollbar-thumb {
+//   border-radius: 10px;
+//   background: rgba(0, 0, 0, 0.05);
+// }
+
+// *::-webkit-scrollbar-thumb:hover {
+//   background: rgba(0, 0, 0, 0.05);
+// }
+
+// *::-webkit-scrollbar-thumb:active {
+//   background: rgba(0, 0, 0, 0.05);
+// }
+
+// .ant-table-content {
+//   margin-top: 20px;
+//   .ant-table-thead {
+//     .ant-table-cell {
+//       background-color: rgb(46, 46, 46);
+//       color: rgb(255, 255, 255);
+//       font-family: "BoldCereal" !important;
+//     }
+//   }
+//   .ant-table-tbody {
+//     .ant-table-cell {
+//       font-family: "MediumCereal" !important;
+//     }
+//   }
+// }
+
+// .menu-sidebar {
+//   background-color: #1f1f1f !important;
+//   .ant-menu-item,
+//   .ant-menu-submenu,
+//   .ant-menu-sub {
+//     font-family: "MediumCereal";
+//     color: white;
+//     background-color: #1f1f1f !important;
+
+//     border-radius: 0;
+
+//     span {
+//       font-size: 1.1em;
+//     }
+//     .anticon {
+//       font-size: 1.5em !important;
+//     }
+//   }
+//   .ant-menu-item,
+//   .ant-menu-submenu-title {
+//     margin-top: 1em;
+//     margin-bottom: 1em;
+//   }
+//   .ant-menu-item-selected {
+//     color: black;
+//     border-left: 3px solid white;
+//     background-color: rgb(247, 237, 237) !important;
+//   }
+// }
+// .ant-layout .ant-layout-sider-has-trigger {
+//   padding-bottom: 0 !important;
+// }
+// .ant-layout-sider-trigger {
+//   display: none;
+// }
+// .ant-select {
+//   &-selector {
+//     border-radius: 30px !important;
+//   }
+// }
+
+//column name
+thead tr .ant-table-cell {
+  font-size: 18px !important;
+}

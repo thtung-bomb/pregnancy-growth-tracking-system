@@ -1,0 +1,42 @@
+.fetal-chart-container {
+  width: 100%;
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.chart-wrapper {
+  position: relative;
+  margin: auto;
+  width: 100%;
+}
+
+.ant-select-item-option-content {
+  display: flex;
+  align-items: center;
+}
+
+.ant-card-head {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.ant-card-head-title {
+  padding: 16px 0;
+}
+
+.ant-alert {
+  margin-bottom: 16px;
+}
+
+.ant-empty {
+  margin: 32px 0;
+}
+
+.ant-divider {
+  margin: 24px 0;
+}
+
+.ant-typography {
+  margin-bottom: 0;
+}
+
